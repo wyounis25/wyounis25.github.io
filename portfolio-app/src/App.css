@@ -1,38 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@200&display=swap');
+
+
+body{
+  overflow-y: scroll;
+  overflow-x:scroll
+
+}
+body::-webkit-scrollbar {
+  display: none;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  overflow-x:none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  color:#F7F9F9;
+  overflow-y: hidden;
+}
+
+.App__resume{
+  margin-top: 310px;
+}
+
+.App__header{
+  overflow-x:none;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  /* left:500px; */
+  background-color: #F7F9F9;
+  /* background-color: black; */
+  bottom: 1025px;
+  margin-top: 0px;
+  left: 0px;
+  right:0px;
+top:0px;
+width:100%;
+}
+.App__header.active{
+  z-index: 2;
+   box-shadow: 0px 6px 18px -0px #363020;
+   background-color: #F7F9F9;
+   border-radius: 10px;
+}
+.App__bg img{
+  position: relative;
+width: 100%;
+top: 0px;
+height: 80px;
+
+  
+}
+#progress{
+  position: fixed;
+  z-index: 10;
+  background: black;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  /* height: 10px; */
+}
+
+#progress__bar{
+  /* transition:width 0.15s linear; */
+  background: linear-gradient(to left, red, violet);
+  /* height: 100%; */
+  /* width: 0%; */
+  transform-origin: top left;
+  opacity: 0;
+  transform: scale(0,0)
+}
+
+.App h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 600%;
+  margin: 0px;
+}
+
+.App p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.contact__component{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 0px;
+}
+/* 605,838 */
+
+.App button{
+  /* display: flex; */
+  /* flex-direction: row; */
+  border-radius: 0%;
+  background-color: #F7F9F9;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  outline:none;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons{
+position: fixed;
+display: flex;
+flex-direction: row;
+justify-items: center;
+align-content: center;
+margin-left:1105px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links{
+  /* position: fixed; */
+width: 30px;
+height: 25px;
+
 }
+
+.resume{
+width: 35px !important;
+height: 25px !important;
+}
+
+ /* .App__rest{
+  margin-top: 500px;
+}
+
+.App__rest h1 {
+  font-family: 'Poiret One', cursive;
+}  */

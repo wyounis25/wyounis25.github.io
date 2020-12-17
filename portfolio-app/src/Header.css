@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@200&display=swap');
+
+
+body{
+    overflow-y: scroll;
+    overflow-x:scroll
+  
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  .Header {
+    overflow-x:none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#363020;
+    overflow-y: hidden;
+  }
+  
+  .Header__header{
+    overflow-x:none;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    /* left:500px; */
+    background-color: #202020;
+    /* background-color: black; */
+    bottom: 950px;
+    margin-top: 0px;
+    left: 0px;
+    right:0px;
+  top:0px;
+  width:100%;
+  /* box-shadow: 0px 6px 18px -0px #363020; */
+  /* box-shadow: 0px 6px 18px -0px #363020; */
+
+  }
+  .Header__header.active{
+    overflow-x:none;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+     box-shadow: 0px 6px 18px -0px #363020;
+     background-color: #202020;
+     /* border-radius: 10px; */
+     bottom: 950px;
+     margin-top: 0px;
+     left: 0px;
+     right:0px;
+   top:0px;
+   width:100%;
+  }
+
+.Header__header h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 600%;
+    margin: 0px;
+    color:#fae588;
+    opacity: 0.7;
+
+  }
+  
+.Header__header p {
+    color:#fae588;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .contact__component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  /* 605,838 */
+  
+  .Header__header button{
+    /* display: flex;
+    flex-direction: row; */
+    border-radius: 0%;
+    background-color: #202020;
+    /* background-color: white; */
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 0px;
+    top: 0px;
+    border: none;
+    outline:none;
+  }
+  
+  .buttons{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-content: center;
+  margin-left:1105px;
+  }
+  
+  .links{
+    position: relative !important;
+  width: 35px;
+  height: 30px;
+  color:#fae588 !important;
+  opacity: 0.7 !important; 
+  bottom: 10.5px;
+
+  }
+  
+  .resume{
+      position: relative !important;
+  width: 40px !important;
+  height: 33px !important;
+  color:#fae588 !important;
+  opacity: 0.7 !important; 
+  bottom: 09px;
+  }
+  
+  .App__rest{
+    margin-top: 250px;
+  }
+  .App__rest h1 {
+    font-family: 'Poiret One', cursive;
+  }

@@ -1,0 +1,15 @@
+body{
+}
+.resume__container{
+    display: flex;
+    justify-content: center;
+   align-items: center; 
+ margin: 50px
+}
+
+.resume__img  {
+    border: 15px solid white;
+    /* box-shadow: 0px 10px 18px -0px #363020; */
+    object-fit: cover;
+    width: 60%;
+}

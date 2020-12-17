@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@200&display=swap');
+
+
+body{
+    overflow-x:scroll
+  
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+.contact__container{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    /* background-color:#fdf8e1;
+    opacity: 0.9;  */
+    transition: transform 500ms ease-in;
+
+}
+
+.contact__container.active{
+    background-color:#fdf8e1;
+    opacity: 0.8; 
+    transform: scale(1.05)
+
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;  
+   left: 0px;
+   right: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+}
+
+.contact__container h1 {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;  
+    font-family: 'Poiret One', cursive;
+    font-size: 300%;
+}
+
+
+
+
+.contact__name  {
+    margin: 20px;
+    /* opacity: 3; */
+    display: flex;
+    text-align: left;
+    width: 407px;
+    border-radius: 0px;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contact__email  {
+    font-family: 'Poppins', sans-serif;
+
+    margin: 20px;
+    display: flex;
+    width: 405px;
+    text-align: left;
+    border-radius: 0px;
+    flex-direction: column;
+}
+
+.contact__message  {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 20px;
+    text-align: left;
+    border-radius: 0px;
+    flex-direction: column;
+}
+
+
+.contact__name input, textarea{
+    font-weight: 900;
+    font-size: 18px;
+    height: 30px;
+    background-color: #272727;
+    outline:none;
+    color:#363020 ;
+    -webkit-text-fill-color: #F7F9F9 ;
+border-radius: 0px;
+}
+
+
+.contact__email input,textarea {
+    font-size: 18px;
+    border-radius: 0px;
+    height: 30px;
+    background-color: #272727;
+    outline:none;
+    color:#363020 ;
+    -webkit-text-fill-color: #F7F9F9 ;
+}
+
+.contact__message textarea {  
+    border-radius: 0px;
+     font-family: 'Manrope', sans-serif;
+     font-size: 18px;
+    background-color: #272727;
+    width: 400px;
+    height: 200px;
+    outline:none;
+    color:#363020 ;
+    -webkit-text-fill-color: #F7F9F9 ;
+}
+
+.contact__button {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;  
+    font-family: 'Manrope', sans-serif;
+    border-radius: 0%;
+    background-color:  rgba(231,226,217, 0);
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    outline:none;
+    
+}
+
+
+/* 
+.contact button:hover{
+    background-color: blue ;
+} */

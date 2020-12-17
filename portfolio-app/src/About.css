@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@200&display=swap');
+
+.about {
+/* border: 1px solid black; */
+position: relative;
+display: flex;
+align-items: center;
+justify-items: center;
+margin-top: 350px;
+margin-bottom: 80px;
+/* box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692); */
+
+}
+.about__me{
+    position: relative;
+    font-family: 'Poiret One', cursive;
+    color:#363020;
+ 
+}
+
+.about__me.active {
+    color:#fae588;
+    opacity: 0.7;
+}
+
+
+
+.about__intro{
+    /* border: 10px solid white; */
+    /* box-shadow: -3px -3px 7px #ffffffb2, 
+    3px 3px 5px rgba(94, 104, 121, 0.945);    */
+     position: relative;
+    margin-left: 40px;
+    width: 60%;
+    object-fit: cover;
+    
+}
+.about__title{
+    /* background-color: gray; */
+    position: relative;
+    /* box-shadow: 
+    10px 10px 15px #363020,
+    -10px -10px 15px  #363020; */
+    /* box-shadow: $inner-shadow;
+    color: var(--greyDark); */
+    left: 5px;
+    font-size: xx-large;
+
+    bottom: 40px;
+    width: 40%;
+    object-fit: cover;
+    /* height: 400px; */
+}
+
+
+
+.about__p{
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 800px;
+    display: flex !important;
+    text-align: left;
+    line-height: 2.5;
+    color:#363020;
+}
+
+.about__p.active{
+    color:#fae588;
+    opacity: 0.7;
+}
+.about__skills img{
+    height: 50px;
+    margin: 10px;
+    transition: transform 120ms ease-in;
+
+}
+.about__skills{
+    /* display: flex;
+align-items: center;
+justify-items: center; */
+position: relative;
+
+opacity: 0.9; 
+      /* box-shadow: 
+    10px 10px 15px #363020,
+    -10px -10px 15px  #363020; */
+    border-radius: 5px;
+    /* height: 100px; */
+    width: 1400px;
+    width: 90%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.about__skills.active{
+    background-color:#fdf8e1;
+    opacity: 0.9; 
+}
+
+
+.about__skills img:hover{
+    transform: scale(1.20)
+}
