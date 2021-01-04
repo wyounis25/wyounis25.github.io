@@ -42,14 +42,14 @@ function About() {
 
 						<img src={js} alt="javascript"/>
 						<img src={html} alt="javascript"/>
-						<img src={node} alt="javascript"/>
-						<img src={rails} alt="javascript"/>
+						<img src={react} alt="javascript"/>
 						<img src={ruby} alt="javascript"/>
+						<img src={rails} alt="javascript"/>
+						<img src={node} alt="javascript"/>
 						<img src={mongo} alt="javascript"/>
 						<img src={express} alt="javascript"/>
 						<img src={firebase} alt="javascript"/>
 						<img src={swift} alt="javascript"/>
-						<img src={react} alt="javascript"/>
 					</div>
 					<p className={about?"about__p active" : "about__p" }>
 					<strong>

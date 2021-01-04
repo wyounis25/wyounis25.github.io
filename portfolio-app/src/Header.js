@@ -30,6 +30,8 @@ function Header() {
 	return (
 		<div className="Header">
 			<div className={header ? 'Header__header active' : 'Header__header'}>
+
+
 				<h1 onClick={goHome}>
 					{' '}
 					<strong>Hi, Im Walid</strong>
