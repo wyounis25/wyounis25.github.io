@@ -31,11 +31,11 @@ function About() {
 			<div className="about__intro">
 				<p className={about?"about__p active" : "about__p" }>
 					<strong>
-						Im a Software Engineer Based in Houston,TX. Aside from coding than im probably listening or
-						reading up on advances in neuroscience, physics, engineering, space, and physical wellbeing. Im
-						just fascinated in the direction Mankind is heading towards and as we venture further into the
+						Im a Software Engineer Based in Houston,TX. Aside from coding im listening to a podcast or
+						reading up on advances in neuroscience, physics, engineering, space, and or physical wellbeing I'm
+						fascinated with direction Mankind is heading towards and as we venture further into the
 						relm of software I can only imagine the all the possitiblites that can one day become realities.
-						Everyday im just sharping my tools
+						Everday I'm driven to improve on my skills 
 					</strong>
 				</p>
 					<div className={about?"about__skills active" : "about__skills" }>
@@ -53,8 +53,7 @@ function About() {
 					</div>
 					<p className={about?"about__p active" : "about__p" }>
 					<strong>
-						and looking to add more the the arsenal. As you naviagte through my website. If you like what
-						you see feel free to reach out to me and if you dont I welcome honest feedback.{' '}
+						and looking to add more the the arsenal. As you navigate through the website and If you have any questions feel free to reach out to me if you have any questions.{' '}
 					</strong>
 				</p>
 			</div>

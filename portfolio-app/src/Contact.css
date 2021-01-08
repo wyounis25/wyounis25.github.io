@@ -4,13 +4,11 @@
 
 
 body{
-    overflow-x:scroll
-  
+    overflow-x:hidden
   }
   body::-webkit-scrollbar {
     display: none;
   }
-
 .contact__container{
     position: absolute;
     left: 0px;
@@ -25,8 +23,8 @@ body{
     background-color:#fdf8e1;
     opacity: 0.8; 
     transform: scale(1.05)
-
 }
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -45,18 +43,19 @@ body{
    justify-content: center;
    align-items: center;  
     font-family: 'Poiret One', cursive;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 
 
 
 .contact__name  {
-    margin: 20px;
+    margin: 30px;
     /* opacity: 3; */
     display: flex;
     text-align: left;
-    width: 407px;
+    width: 56.2vh;
+    height: 20px;
     border-radius: 0px;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
@@ -66,23 +65,24 @@ body{
 .contact__email  {
     font-family: 'Poppins', sans-serif;
 
-    margin: 20px;
+    margin: 30px;
     display: flex;
-    width: 405px;
+    width: 56.2vh;
+    height: 20px;
     text-align: left;
     border-radius: 0px;
     flex-direction: column;
 }
+
 
 .contact__message  {
     font-family: 'Poppins', sans-serif;
     display: flex;
-    margin: 20px;
+    margin: 30px;
     text-align: left;
     border-radius: 0px;
     flex-direction: column;
 }
-
 
 .contact__name input, textarea{
     font-weight: 900;
@@ -118,9 +118,9 @@ border-radius: 0px;
     -webkit-text-fill-color: #F7F9F9 ;
 }
 
-.contact__button {
+.contact__button > button{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
    justify-content: center;
    align-items: center;  
     font-family: 'Manrope', sans-serif;
@@ -130,7 +130,11 @@ border-radius: 0px;
     height: 50px;
     margin: 10px;
     outline:none;
+    margin-left: 130px;
     
+}
+.contact__button > button:hover{
+   
 }
 
 

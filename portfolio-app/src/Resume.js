@@ -1,5 +1,5 @@
 import React from 'react';
-import walid from './walid.jpg';
+import walid from './walid.png';
 import './Resume.css';
 
 function Resume() {

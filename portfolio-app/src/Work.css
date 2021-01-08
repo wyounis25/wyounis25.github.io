@@ -1,56 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@200&display=swap');
 
+.work{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
 .work__1{
     display: flex;
-    margin: 40px;
+    margin: 10px;
     align-items: center;
     justify-items: center;
-    transition: transform 100ms ease-in;
     cursor: pointer;
     ;
 
 }
 
-.work__2{
+
+.work__header{
     display: flex;
     align-items: center;
-    justify-items: center;
-    margin: 40px;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
+  font-size: 300%;
+  margin: 0px;
+  color:#fae588;
+}
+#work__code {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+flex-direction: row;
+}
+#work__code > a{
+    color: black;
+    margin:5px;
+    font-family: 'Poiret One', cursive !important;
+    font-size: 3vh;
 
-    transition: transform 100ms ease-in;
-    cursor: pointer;
-    ;
-    
 
 }
-.work__1:hover{
-    transform: scale(1.05)
-
-}
-.work__2:hover{
-    transform: scale(1.05)
-
-}
-
 .work__project{
+display: flex;
+flex-direction: row;
 align-items: center;
 justify-items: center;
-margin-left: 80px;
-width: 50%;
+margin-left: 5px;
+overflow-x: scroll;
+overflow-y: hidden;
+}
+.work__project::-webkit-scrollbar{
+    display: none;
 }
 
 .work__stack{
 display: flex;
+flex-direction: column;
+background-color:hsl(49, 88%, 94%);
+margin-left: 10px;
+border-radius: 10px;
+justify-content: center;
 align-items: center;
-justify-items: center;
-margin-right: 80px;
-width:50%
+width: 120vh;
+height: 61vh;
+object-fit: cover;
+
+}
+
+.work__stack img{
+    
+    height: 15%;
 }
 
 
 .work__project img{
-height: 400px;
-width: 640px;
+height: 58vh;
+width: 95vh;
+border: 2px solid hsl(49, 88%, 94%);
+margin: 5px;
 }
 .work__stack img{
-opacity: 0.3;
 }

@@ -6,7 +6,10 @@ import Work from './Work';
 import Resume from './Resume';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Header from './Header';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
+AOS.init();
 function App() {
 	
 
@@ -22,8 +25,8 @@ function App() {
 					<Route path="/">
 						<div className="App__rest" >
 							<About />
-							<h1>Projects</h1>
 							<Work />
+							<br/>
 							<Contact className="contact__component" />
 						</div>
 					</Route>

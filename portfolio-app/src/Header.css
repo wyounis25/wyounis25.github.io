@@ -19,6 +19,7 @@ body{
   }
   
   .Header__header{
+    cursor: pointer;
     overflow-x:none;
     z-index: 999;
     font-family: 'Poppins', sans-serif;
@@ -41,7 +42,7 @@ body{
   .Header__header h1{
   display: flex;
     font-family: 'Poiret One', cursive;
-    font-size: 600%;
+    font-size: 500%;
     margin: 0px;
     margin-right: 10vh;
     color:#fae588;
@@ -88,14 +89,30 @@ body{
     margin-left:1105px;
   }
 
-
-
 @media(min-width: 100px){
+
+
+/* 
+  .Header__icons{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  } */
+
+
+
+
+
+
+
+
+
+
 
   .Header__header h1{
     display: flex;
       font-family: 'Poiret One', cursive;
-      font-size: 600%;
+      font-size: 500%;
       margin: 0px;
       margin-right: 10vh;
       color:#fae588;
@@ -103,6 +120,7 @@ body{
       align-items: center;
       justify-content: center;
     }
+
   .Header__header.active{
     overflow-x:none;
     z-index: 2;
@@ -117,7 +135,7 @@ body{
      right:0px;
    top:0px;
    width:195vh;
-   height: 30vh;
+   height: 26.5vh;
   }
 
   .links{
@@ -126,7 +144,7 @@ body{
     height: 3vh;
   color:#fae588 !important;
   opacity: 0.7 !important; 
-  bottom: 2vh;
+  bottom: 2.2vh;
 
   }
   
@@ -152,7 +170,7 @@ body{
   .Header__header h1{
     display: flex;
       font-family: 'Poiret One', cursive;
-      font-size: 600%;
+      font-size: 500%;
       margin: 0px;
       color:#fae588;
       opacity: 0.7;

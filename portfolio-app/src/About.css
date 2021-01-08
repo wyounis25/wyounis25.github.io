@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@200&display=swap');
+body{
+overflow-x: hidden;
+}
 
 .about {
-/* border: 1px solid black; */
+overflow-x: hidden;
 position: relative;
 display: flex;
 align-items: center;
@@ -11,13 +14,12 @@ justify-items: center;
 margin-top: 350px;
 margin-bottom: 80px;
 /* box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692); */
-
 }
+
 .about__me{
     position: relative;
     font-family: 'Poiret One', cursive;
     color:#363020;
- 
 }
 
 .about__me.active {
@@ -32,7 +34,7 @@ margin-bottom: 80px;
     /* box-shadow: -3px -3px 7px #ffffffb2, 
     3px 3px 5px rgba(94, 104, 121, 0.945);    */
      position: relative;
-    margin-left: 40px;
+    margin-left: 4px;
     width: 60%;
     object-fit: cover;
     
