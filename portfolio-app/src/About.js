@@ -31,7 +31,7 @@ function About() {
 			<div className="about__intro">
 				<p className={about?"about__p active" : "about__p" }>
 					<strong>
-						Im a Software Engineer Based in Houston,TX. Aside from coding im listening to a podcast or
+						I am a Software Engineer Based in Houston,TX. Aside from coding im listening to a podcast or
 						reading up on advances in neuroscience, physics, engineering, space, and or physical wellbeing I'm
 						fascinated with direction Mankind is heading towards and as we venture further into the
 						relm of software I can only imagine the all the possitiblites that can one day become realities.
